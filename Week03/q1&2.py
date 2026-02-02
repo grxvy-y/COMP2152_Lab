@@ -22,7 +22,6 @@ print(f"Position of milk: {cart.index('milk')}") # index is to find where the it
 cart.remove("apple") # Removes the first occurence
 removed_item = cart.pop() # pop Removes and returns the last item
 print(f"Removed item using pop: {removed_item}")
-
 print(f"Is banana in cart? {'banana' in cart}")
 print(f"Final cart: {cart}")
 
